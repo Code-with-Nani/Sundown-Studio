@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: medium;
+  src: url("./assets/fonts/NeueHaasDisplay-Mediu.woff");
+}
+@font-face {
+  font-family: roman;
+  src: url("./assets/fonts/NeueHaasDisplay-Roman.woff");
+}
+
+.medium {
+  font-family: medium, sans-serif;
+}
+.roman {
+  font-family: roman, sans-serif;
+}
+
+
